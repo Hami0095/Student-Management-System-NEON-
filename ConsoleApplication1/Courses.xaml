@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCourses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <department>
+      <Name>EE</Name>
+    </department>
+    <Code>CS50</Code>
+    <Name>PF</Name>
+    <Hours>4</Hours>
+    <Semester>Semester 1</Semester>
+  </Courses>
+  <Courses>
+    <department>
+      <Name>Robotics</Name>
+    </department>
+    <Code>CS121</Code>
+    <Name>Escobar</Name>
+    <Hours>3</Hours>
+    <Semester>Semester 3</Semester>
+  </Courses>
+  <Courses>
+    <department>
+      <Name>EE</Name>
+    </department>
+    <Code>EE101</Code>
+    <Name>DLD</Name>
+    <Hours>3</Hours>
+    <Semester>Semester 2</Semester>
+  </Courses>
+  <Courses xsi:nil="true" />
+  <Courses xsi:nil="true" />
+  <Courses xsi:nil="true" />
+  <Courses xsi:nil="true" />
+  <Courses xsi:nil="true" />
+  <Courses xsi:nil="true" />
+  <Courses xsi:nil="true" />
+  <Courses xsi:nil="true" />
+</ArrayOfCourses>

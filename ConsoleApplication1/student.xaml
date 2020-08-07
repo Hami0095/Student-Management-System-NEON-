@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <Password>fasdf</Password>
+    <Email>dsf</Email>
+    <Address>dfasdf</Address>
+    <Gender>Male</Gender>
+    <FName>fasdfa</FName>
+    <Name>dafs</Name>
+    <_MarksData>
+      <Marks xsi:nil="true" />
+      <Marks>
+        <Obtained>50</Obtained>
+        <Total>100</Total>
+        <Type>Quiz</Type>
+        <Semester>Semester 1</Semester>
+        <department>
+          <Name>cs</Name>
+        </department>
+        <batch>
+          <Name>asdfas</Name>
+        </batch>
+        <Course>
+          <department>
+            <Name>cs</Name>
+          </department>
+          <Code>cs50</Code>
+          <Name>wds</Name>
+          <Hours>1</Hours>
+          <Semester>Semester 1</Semester>
+        </Course>
+        <Classe>
+          <Name>DLD</Name>
+        </Classe>
+      </Marks>
+    </_MarksData>
+    <_AttandenceData>
+      <Attandence>
+        <Semester>Semester 1</Semester>
+        <Date>2020-06-16T06:07:57.8252295+05:00</Date>
+        <department>
+          <Name>cs</Name>
+        </department>
+        <batch>
+          <Name>asdfas</Name>
+        </batch>
+        <Course>
+          <department>
+            <Name>cs</Name>
+          </department>
+          <Code>cs50</Code>
+          <Name>wds</Name>
+          <Hours>1</Hours>
+          <Semester>Semester 1</Semester>
+        </Course>
+        <Classe>
+          <Name>DLD</Name>
+        </Classe>
+      </Attandence>
+      <Attandence xsi:nil="true" />
+    </_AttandenceData>
+    <_AssignedCourse>
+      <Courses>
+        <Status>Unregisted</Status>
+        <department>
+          <Name>cs</Name>
+        </department>
+        <Code>cs50</Code>
+        <Name>wds</Name>
+        <Hours>1</Hours>
+        <Semester>Semester 1</Semester>
+      </Courses>
+      <Courses>
+        <Status>Withdraw</Status>
+        <department>
+          <Name>cs</Name>
+        </department>
+        <Code>cs50</Code>
+        <Name>wds</Name>
+        <Hours>1</Hours>
+        <Semester>Semester 1</Semester>
+      </Courses>
+    </_AssignedCourse>
+    <RollNo>sdfasdfa</RollNo>
+    <Depart>
+      <Name>cs</Name>
+    </Depart>
+    <Baatch>
+      <Name>asdfas</Name>
+    </Baatch>
+    <Class>
+      <Name>DLD</Name>
+    </Class>
+  </Student>
+  <Student>
+    <Password>a</Password>
+    <Email>a@a.com</Email>
+    <Address>das</Address>
+    <Gender>Male</Gender>
+    <FName>asd</FName>
+    <Name>sdas</Name>
+    <_MarksData>
+      <Marks xsi:nil="true" />
+      <Marks xsi:nil="true" />
+    </_MarksData>
+    <_AttandenceData>
+      <Attandence xsi:nil="true" />
+      <Attandence xsi:nil="true" />
+    </_AttandenceData>
+    <_AssignedCourse>
+      <Courses xsi:nil="true" />
+      <Courses xsi:nil="true" />
+    </_AssignedCourse>
+    <RollNo>asdas</RollNo>
+    <Depart>
+      <Name>cs</Name>
+    </Depart>
+    <Baatch>
+      <Name>asdfas</Name>
+    </Baatch>
+    <Class>
+      <Name>DLD</Name>
+    </Class>
+  </Student>
+  <Student>
+    <Password>Lawliet</Password>
+    <Email>Lawliet</Email>
+    <Address>Lhr</Address>
+    <Gender>Male</Gender>
+    <FName>abba</FName>
+    <Name>beta</Name>
+    <_MarksData>
+      <Marks xsi:nil="true" />
+      <Marks xsi:nil="true" />
+    </_MarksData>
+    <_AttandenceData>
+      <Attandence xsi:nil="true" />
+      <Attandence xsi:nil="true" />
+    </_AttandenceData>
+    <_AssignedCourse>
+      <Courses>
+        <department>
+          <Name>EE</Name>
+        </department>
+        <Code>EE101</Code>
+        <Name>DLD</Name>
+        <Hours>3</Hours>
+        <Semester>Semester 2</Semester>
+      </Courses>
+      <Courses xsi:nil="true" />
+    </_AssignedCourse>
+    <RollNo>1234</RollNo>
+    <Depart>
+      <Name>EE</Name>
+    </Depart>
+    <Baatch>
+      <Name>2018-Fall</Name>
+    </Baatch>
+    <Class>
+      <Name>CS-F</Name>
+    </Class>
+  </Student>
+  <Student>
+    <Password>as</Password>
+    <Email>as</Email>
+    <Address>as</Address>
+    <Gender>Male</Gender>
+    <FName>as</FName>
+    <Name>as</Name>
+    <_MarksData>
+      <Marks xsi:nil="true" />
+      <Marks xsi:nil="true" />
+    </_MarksData>
+    <_AttandenceData>
+      <Attandence xsi:nil="true" />
+      <Attandence xsi:nil="true" />
+    </_AttandenceData>
+    <_AssignedCourse>
+      <Courses xsi:nil="true" />
+      <Courses xsi:nil="true" />
+    </_AssignedCourse>
+    <RollNo>as</RollNo>
+    <Depart>
+      <Name />
+    </Depart>
+    <Baatch>
+      <Name />
+    </Baatch>
+    <Class>
+      <Name />
+    </Class>
+  </Student>
+  <Student xsi:nil="true" />
+  <Student xsi:nil="true" />
+  <Student xsi:nil="true" />
+  <Student xsi:nil="true" />
+  <Student xsi:nil="true" />
+  <Student xsi:nil="true" />
+  <Student xsi:nil="true" />
+  <Student xsi:nil="true" />
+</ArrayOfStudent>

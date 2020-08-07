@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{AA0CFF17-B934-4923-9602-ADFF206E4CB0}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddAttandence.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Attandence.h" />
+    <ClInclude Include="Batch.h" />
+    <ClInclude Include="BatchManager.h" />
+    <ClInclude Include="Classes.h" />
+    <ClInclude Include="ClassesManager.h" />
+    <ClInclude Include="CourseManager.h" />
+    <ClInclude Include="Courses.h" />
+    <ClInclude Include="Depart.h" />
+    <ClInclude Include="DepartmentManager.h" />
+    <ClInclude Include="Faculty.h" />
+    <ClInclude Include="frmAddBatch.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmAddClass.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmAddCourse.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmAddDepartment.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmAddStudent.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmAssignCourseToTeacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmChangePassword.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmLogIn.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMarking.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmRegisterCourse.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmViewBatch.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmViewClasses.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmViewCourses.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmViewCourseStudent.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmViewDepartment.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmViewHod.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmViewITManager.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmViewStudent.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmViewTeacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HodManager.h" />
+    <ClInclude Include="ITManagerManager.h" />
+    <ClInclude Include="Marks.h" />
+    <ClInclude Include="TeacherManager.h" />
+    <ClInclude Include="frmAddFacultyMember.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMain.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HelperClass.h" />
+    <ClInclude Include="Hod.h" />
+    <ClInclude Include="ITManager.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Registration.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Serializer.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="StudentManager.h" />
+    <ClInclude Include="Teacher.h" />
+    <ClInclude Include="University.h" />
+    <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddAttandence.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Attandence.cpp" />
+    <ClCompile Include="Batch.cpp" />
+    <ClCompile Include="BatchManager.cpp" />
+    <ClCompile Include="Classes.cpp" />
+    <ClCompile Include="ClassesManager.cpp" />
+    <ClCompile Include="CourseManager.cpp" />
+    <ClCompile Include="Courses.cpp" />
+    <ClCompile Include="Depart.cpp" />
+    <ClCompile Include="DepartmentManager.cpp" />
+    <ClCompile Include="Faculty.cpp" />
+    <ClCompile Include="FacultyManager.cpp" />
+    <ClCompile Include="frmAddBatch.cpp" />
+    <ClCompile Include="frmAddClass.cpp" />
+    <ClCompile Include="frmAddCourse.cpp" />
+    <ClCompile Include="frmAddDepartment.cpp" />
+    <ClCompile Include="frmAddFacultyMember.cpp" />
+    <ClCompile Include="frmAddStudent.cpp" />
+    <ClCompile Include="frmAssignCourseToTeacher.cpp" />
+    <ClCompile Include="frmChangePassword.cpp" />
+    <ClCompile Include="frmLogIn.cpp" />
+    <ClCompile Include="frmMain.cpp" />
+    <ClCompile Include="frmMarking.cpp" />
+    <ClCompile Include="frmRegisterCourse.cpp" />
+    <ClCompile Include="frmViewBatch.cpp" />
+    <ClCompile Include="frmViewClasses.cpp" />
+    <ClCompile Include="frmViewCourses.cpp" />
+    <ClCompile Include="frmViewCourseStudent.cpp" />
+    <ClCompile Include="frmViewDepartment.cpp" />
+    <ClCompile Include="frmViewHod.cpp" />
+    <ClCompile Include="frmViewITManager.cpp" />
+    <ClCompile Include="frmViewStudent.cpp" />
+    <ClCompile Include="frmViewTeacher.cpp" />
+    <ClCompile Include="HelperClass.cpp" />
+    <ClCompile Include="Hod.cpp" />
+    <ClCompile Include="HodManager.cpp" />
+    <ClCompile Include="ITManager.cpp" />
+    <ClCompile Include="ITManagerManager.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="Marks.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Registration.cpp" />
+    <ClCompile Include="Serializer.cpp" />
+    <ClCompile Include="Start.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="StudentManager.cpp" />
+    <ClCompile Include="TA.cpp" />
+    <ClCompile Include="Teacher.cpp" />
+    <ClCompile Include="University.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$this.BackgroundImage.jpg" />
+    <Image Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddAttandence.resx">
+      <DependentUpon>AddAttandence.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddBatch.resx">
+      <DependentUpon>frmAddBatch.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddClass.resx">
+      <DependentUpon>frmAddClass.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCourse.resx">
+      <DependentUpon>frmAddCourse.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddDepartment.resx">
+      <DependentUpon>frmAddDepartment.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddFacultyMember.resx">
+      <DependentUpon>frmAddFacultyMember.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddStudent.resx">
+      <DependentUpon>frmAddStudent.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssignCourseToTeacher.resx">
+      <DependentUpon>frmAssignCourseToTeacher.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogIn.resx">
+      <DependentUpon>frmLogIn.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.h</DependentUpon>
+      <DeploymentContent>false</DeploymentContent>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMarking.resx">
+      <DependentUpon>frmMarking.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegisterCourse.resx">
+      <DependentUpon>frmRegisterCourse.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewBatch.resx">
+      <DependentUpon>frmViewBatch.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewClasses.resx">
+      <DependentUpon>frmViewClasses.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewCourses.resx">
+      <DependentUpon>frmViewCourses.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewCourseStudent.resx">
+      <DependentUpon>frmViewCourseStudent.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewDepartment.resx">
+      <DependentUpon>frmViewDepartment.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewHod.resx">
+      <DependentUpon>frmViewHod.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewITManager.resx">
+      <DependentUpon>frmViewITManager.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewStudent.resx">
+      <DependentUpon>frmViewStudent.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewTeacher.resx">
+      <DependentUpon>frmViewTeacher.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

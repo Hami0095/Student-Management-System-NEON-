@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfITManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ITManager>
+    <Password>master</Password>
+    <Email>master</Email>
+    <Address>SDK</Address>
+    <Gender>Male</Gender>
+    <FName>Admin</FName>
+    <Name>Master</Name>
+  </ITManager>
+  <ITManager xsi:nil="true" />
+</ArrayOfITManager>

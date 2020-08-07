@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClasses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Classes>
+    <Name>DLD</Name>
+  </Classes>
+  <Classes>
+    <Name>CAL 1</Name>
+  </Classes>
+  <Classes>
+    <Name>CS-A</Name>
+  </Classes>
+  <Classes>
+    <Name>CS-F</Name>
+  </Classes>
+  <Classes>
+    <Name>CS+EE-A</Name>
+  </Classes>
+  <Classes xsi:nil="true" />
+  <Classes xsi:nil="true" />
+  <Classes xsi:nil="true" />
+  <Classes xsi:nil="true" />
+  <Classes xsi:nil="true" />
+  <Classes xsi:nil="true" />
+  <Classes xsi:nil="true" />
+</ArrayOfClasses>

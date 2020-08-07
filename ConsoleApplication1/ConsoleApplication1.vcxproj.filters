@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{108bfcbb-9aec-4f63-9c3f-1ef30ca811ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{7b8fe4d0-c3a8-4e79-9e3d-b53a5994bd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{212134d8-e327-45fd-ba03-9a160d7d79e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{d9b7d86e-1f92-40cc-b251-4f287065f731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algo">
+      <UniqueIdentifier>{d4ce414a-211b-438f-b809-fa1de5ac8a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algo">
+      <UniqueIdentifier>{8140a718-a31b-404c-8ca9-ff6f174687a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frm">
+      <UniqueIdentifier>{f79ae420-e69c-4099-8a81-f10fe98089f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frm">
+      <UniqueIdentifier>{553f427a-48ed-4edf-b0f7-65300454085e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frm\std">
+      <UniqueIdentifier>{5437ec7f-5ab4-4f3e-b83f-1f136a4f28b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frm\std">
+      <UniqueIdentifier>{f40fe52e-d4df-42d4-a5e1-da17ed93fcce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Header Files\Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Header Files\Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmAddFacultyMember.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperClass.h">
+      <Filter>Header Files\Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Faculty.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Hod.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Courses.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Registration.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="University.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ITManager.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="HodManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ITManagerManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="frmAddStudent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmAddCourse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassesManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="frmAddClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="BatchManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="frmAddBatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Depart.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DepartmentManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="frmAddDepartment.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmViewStudent.h">
+      <Filter>Header Files\frm\std</Filter>
+    </ClInclude>
+    <ClInclude Include="frmViewCourses.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmViewTeacher.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmViewHod.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmViewITManager.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmViewClasses.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmViewBatch.h">
+      <Filter>Header Files\frm\std</Filter>
+    </ClInclude>
+    <ClInclude Include="frmViewDepartment.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmAssignCourseToTeacher.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmRegisterCourse.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmViewCourseStudent.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAttandence.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="Attandence.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="frmMarking.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="Marks.h">
+      <Filter>Source Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="frmLogIn.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+    <ClInclude Include="frmChangePassword.h">
+      <Filter>Header Files\frm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Serializer.cpp">
+      <Filter>Source Files\Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Source Files\Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperClass.cpp">
+      <Filter>Source Files\Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Faculty.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Hod.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="FacultyManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Courses.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Registration.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="University.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="HodManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ITManagerManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TA.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Batch.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Depart.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DepartmentManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="frmAddBatch.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmAddClass.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmAddCourse.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmAddFacultyMember.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmAddStudent.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmMain.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="ITManager.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="frmAddDepartment.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmViewStudent.cpp">
+      <Filter>Source Files\frm\std</Filter>
+    </ClCompile>
+    <ClCompile Include="frmViewITManager.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmViewHod.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmViewDepartment.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmViewCourses.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmViewClasses.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmViewTeacher.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmAssignCourseToTeacher.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmRegisterCourse.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmViewCourseStudent.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAttandence.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="Attandence.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="frmMarking.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="Marks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmViewBatch.cpp">
+      <Filter>Source Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmLogIn.cpp">
+      <Filter>Header Files\frm</Filter>
+    </ClCompile>
+    <ClCompile Include="frmChangePassword.cpp">
+      <Filter>Header Files\frm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="$this.BackgroundImage.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

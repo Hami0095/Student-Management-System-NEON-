@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTeacher xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Teacher>
+    <Password>ryuk</Password>
+    <Email>ryuk</Email>
+    <Address>as</Address>
+    <Gender>Male</Gender>
+    <FName>as</FName>
+    <Name>as</Name>
+    <_AssignedCourse>
+      <Courses xsi:nil="true" />
+      <Courses xsi:nil="true" />
+    </_AssignedCourse>
+  </Teacher>
+  <Teacher xsi:nil="true" />
+</ArrayOfTeacher>

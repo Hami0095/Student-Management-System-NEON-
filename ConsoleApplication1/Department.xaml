@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDepartment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Department>
+    <Name>cs</Name>
+  </Department>
+  <Department>
+    <Name>ee</Name>
+  </Department>
+  <Department>
+    <Name>Civil</Name>
+  </Department>
+  <Department>
+    <Name>EE</Name>
+  </Department>
+  <Department>
+    <Name>Robotics</Name>
+  </Department>
+  <Department xsi:nil="true" />
+  <Department xsi:nil="true" />
+  <Department xsi:nil="true" />
+  <Department xsi:nil="true" />
+  <Department xsi:nil="true" />
+  <Department xsi:nil="true" />
+  <Department xsi:nil="true" />
+</ArrayOfDepartment>

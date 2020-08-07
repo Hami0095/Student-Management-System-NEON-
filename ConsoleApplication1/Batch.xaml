@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBatch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Batch>
+    <Name>asdfas</Name>
+  </Batch>
+  <Batch>
+    <Name>fsgfdgs</Name>
+  </Batch>
+  <Batch>
+    <Name>zcxvzxcv</Name>
+  </Batch>
+  <Batch>
+    <Name>1857 Fall</Name>
+  </Batch>
+  <Batch>
+    <Name>1999</Name>
+  </Batch>
+  <Batch xsi:nil="true" />
+  <Batch xsi:nil="true" />
+  <Batch xsi:nil="true" />
+  <Batch xsi:nil="true" />
+  <Batch xsi:nil="true" />
+  <Batch xsi:nil="true" />
+  <Batch xsi:nil="true" />
+  <Batch xsi:nil="true" />
+</ArrayOfBatch>
